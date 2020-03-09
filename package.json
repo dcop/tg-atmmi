@@ -1,0 +1,41 @@
+{
+  "name": "tg-atmmi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcop/tg-atmmi.git"
+  },
+  "author": "dcop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcop/tg-atmmi/issues"
+  },
+  "homepage": "https://github.com/dcop/tg-atmmi#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.29",
+    "@types/node-telegram-bot-api": "^0.40.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "node-atmmi-client": "^0.0.1",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
